@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: 3431f9ee9777e6a4795d94c0e004352f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slumo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 344
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e298b55133288db47aac0a4411bed5f7
+      internalID: 1613929055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 344
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775c4b3cd2d974641a493c359358cdf4
+      internalID: 1633880890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 344
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11f94d9448e0da48b4ecf318ffb266a
+      internalID: 2110580821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 344
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3173c9167a3fc148b88fbf261e40616
+      internalID: 1887657098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 307
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab0bd2dffebb764b94095c0c3a201ef
+      internalID: -845397736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 307
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ba3bbb31a555c47bd8b8ae4b26d290
+      internalID: -2135312227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 307
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c62624ad23ea4fa16a90cc160e5b6
+      internalID: -1791315096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 307
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc24bf5f5ca45441bef07b0495f818f
+      internalID: 1526621323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 307
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86372cfa58b67664ba4a0e1f714efe0c
+      internalID: 1257001549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 269
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f152427eb1214ba622ae6cab38d22
+      internalID: 1311196120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 269
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dacc60177022bb44b34be9a3629e738
+      internalID: -1701115868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 269
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deaf79b808bcc94197a0591bd115de0
+      internalID: 456857439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 269
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d120418788d5b489e1eaf4e85e454a
+      internalID: -1433295820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 269
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715687f1c50562c4bb773ef0b75b2571
+      internalID: -1863564917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 232
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41696c8a2638208458ebf45d3a634e38
+      internalID: 262737292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 232
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1a507a5ad41e942ae72029843e8f9c
+      internalID: 327549219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 232
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6cc5dc8ad93504e8d22773e93465b2
+      internalID: -563967344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 232
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c93e9aaa9a75e45ab7db68cd599e76
+      internalID: -731326508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 232
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f15714e61726145af2cbc55a1982c9
+      internalID: 1894859098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 194
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f6c5035b62ea94b810f49d6d64f050
+      internalID: -646909518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 194
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b75b0f83a435ff48b7271eccd0a8b3c
+      internalID: 1433532053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfff13d2cd69084fa58d5fe69bc4e13
+      internalID: -2081943288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 194
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e06561371fcb4545ac3942f4c1c34de
+      internalID: -346530440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 194
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f69fdd821c8d1447809902d8aeec0c5
+      internalID: 1195422706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5028a906bf042854b93eff617413d736
+      internalID: 12890770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a247785675295ff4c9d6663fca3cd531
+      internalID: -1616561371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8582ac2500a1e6c48aae083821d8ba97
+      internalID: 1789518818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 155
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efdb5cfaa208054d8f681ff86c445a0
+      internalID: -1665789540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b39bc6cdf52ff43a74384ee909d69f
+      internalID: 1275828167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 117
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698e47adf129ff64f8cfdb7ea2966797
+      internalID: 1215776432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 117
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ce4c5b17623604b87385e0cb4d6d48
+      internalID: 1141527028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea05436b554559942b3d8cb79dd27c87
+      internalID: 566834120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 117
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05db7282a940cb04fa7f139273b8d7ac
+      internalID: 2127235966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 117
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d3d4686e9cec64cae0a55aeb66511d
+      internalID: -1624453809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 80
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36cb89034c41fa46942f09bdce9efc3
+      internalID: 935091743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 80
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a17114ab4ebe4a86a590ec9cff6a8
+      internalID: -784401290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47440b499ecbaa428fa546d2703e2fd
+      internalID: -1641399582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 80
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299686b50f0e3ae458e575eec27261e0
+      internalID: 1828701895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 80
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f9be44c2cd0c74dae923a7034be81e
+      internalID: -650857825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 42
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d96d68f8bbf02642a3f27181d0dcc14
+      internalID: 1808768973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c22efdefe472f4e9c3cf552bcc4894
+      internalID: 1652312041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 42
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec3fa58fae4a694f81c9cdc096537ef
+      internalID: -536113592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 42
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2873bbaf7eda64d4d811327eaa1c86b8
+      internalID: 1185254638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 42
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7b57e475f65bc4e92ec907635b39f9
+      internalID: -1265854413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a8addec9682f04a9b0ad28182a8ba6
+      internalID: 851118473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faff322ed47e445a30e8765538fe09
+      internalID: -1219450857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7f29da28467f44c88a771d32de6856
+      internalID: -241989365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2607a54f59a30f24b847f53a73b30ebc
+      internalID: 52427455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5787fbaac14814b4aa3936188123dbbc
+      internalID: 1976784863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d9a28a9f0964e4794b1ac8524a8386
+      internalID: 1656019184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58d26a82ca8f247975e464da1355f2
+      internalID: -1863980783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083296e3810aa974e9d4e23c35b80762
+      internalID: -594783043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe9079bf87f1d8458ac3b4964bde0e5
+      internalID: -1472552086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1026a80f6da14d2428a74c305f730306
+      internalID: -970275700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumo-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410057dcaf90e94a9f3ac06f3f13d88
+      internalID: 1203509591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Slumo-Sheet_0: 1613929055
+      Slumo-Sheet_1: 1633880890
+      Slumo-Sheet_10: -1701115868
+      Slumo-Sheet_11: 456857439
+      Slumo-Sheet_12: -1433295820
+      Slumo-Sheet_13: -1863564917
+      Slumo-Sheet_14: 262737292
+      Slumo-Sheet_15: 327549219
+      Slumo-Sheet_16: -563967344
+      Slumo-Sheet_17: -731326508
+      Slumo-Sheet_18: 1894859098
+      Slumo-Sheet_19: -646909518
+      Slumo-Sheet_2: 2110580821
+      Slumo-Sheet_20: 1433532053
+      Slumo-Sheet_21: -2081943288
+      Slumo-Sheet_22: -346530440
+      Slumo-Sheet_23: 1195422706
+      Slumo-Sheet_24: 12890770
+      Slumo-Sheet_25: -1616561371
+      Slumo-Sheet_26: 1789518818
+      Slumo-Sheet_27: -1665789540
+      Slumo-Sheet_28: 1275828167
+      Slumo-Sheet_29: 1215776432
+      Slumo-Sheet_3: 1887657098
+      Slumo-Sheet_30: 1141527028
+      Slumo-Sheet_31: 566834120
+      Slumo-Sheet_32: 2127235966
+      Slumo-Sheet_33: -1624453809
+      Slumo-Sheet_34: 935091743
+      Slumo-Sheet_35: -784401290
+      Slumo-Sheet_36: -1641399582
+      Slumo-Sheet_37: 1828701895
+      Slumo-Sheet_38: -650857825
+      Slumo-Sheet_39: 1808768973
+      Slumo-Sheet_4: -845397736
+      Slumo-Sheet_40: 1652312041
+      Slumo-Sheet_41: -536113592
+      Slumo-Sheet_42: 1185254638
+      Slumo-Sheet_43: -1265854413
+      Slumo-Sheet_44: 851118473
+      Slumo-Sheet_45: -1219450857
+      Slumo-Sheet_46: -241989365
+      Slumo-Sheet_47: 52427455
+      Slumo-Sheet_48: 1976784863
+      Slumo-Sheet_49: 1656019184
+      Slumo-Sheet_5: -2135312227
+      Slumo-Sheet_50: -1863980783
+      Slumo-Sheet_51: -594783043
+      Slumo-Sheet_52: -1472552086
+      Slumo-Sheet_53: -970275700
+      Slumo-Sheet_54: 1203509591
+      Slumo-Sheet_6: -1791315096
+      Slumo-Sheet_7: 1526621323
+      Slumo-Sheet_8: 1257001549
+      Slumo-Sheet_9: 1311196120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

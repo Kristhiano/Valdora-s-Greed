@@ -1,0 +1,1964 @@
+fileFormatVersion: 2
+guid: 81c8fed1ff7e45b4fa7dd6a7b77c6784
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asechador-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 310
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bac392baff9d24bb3d1b79119bf72a
+      internalID: -1087495353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 310
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dda89868e132f4eadd4da30c7afbce
+      internalID: 778334947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 310
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2534f0d660dea43459609d18794ad325
+      internalID: -1652952190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 310
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abba70b7951f5d54984c564d59977cb5
+      internalID: -790884485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 310
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef94a968ee95f164c8125740d71688cb
+      internalID: -1790447895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 310
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9d7e03cd8660f4583ae0e49d29b594
+      internalID: -400122646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 276
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa34bc8ac784dd34eb7a28f5e1d9d4e5
+      internalID: -1668779898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 276
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f3c1512e552d44a005b8d212d1b46
+      internalID: 1927915068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 276
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afcd2a211d542c4096c28b58d9a4160
+      internalID: -1828571695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 276
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83b663f2b2f77f45b76e213556d16b0
+      internalID: -2008248366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 276
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ac620f9011e4449afeb4be6f106703
+      internalID: 268680750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 276
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1e219d6618b9b4997b439ac811974c
+      internalID: -764825428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 241
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4862d6d94d9e54fba468d1122ae92e
+      internalID: 2125940063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 241
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903bacf9ad3f64a428daee6525188204
+      internalID: 392109375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 241
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76117617eb628d54da2c3087f622b6c4
+      internalID: 956785683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 241
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f3136d241c7d40a458986f054c45e
+      internalID: -1563477698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 241
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335644253b3feb94cbef5fc0ed3aca90
+      internalID: -2142755562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 241
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039443d46a9186e4284b7c651aa4e6c3
+      internalID: -450937587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 208
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a5b4db9da72ed469746414c371dd81
+      internalID: -1794295506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 208
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f93602df6d0a1f438548b4a22810610
+      internalID: -1342642076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 208
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83d8c6e85411e94d96e1889ab7d426f
+      internalID: 558518197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 208
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3c61a1605c7a041987841eecc36445
+      internalID: 1047944123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 208
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856359d270d4f75448e50c99fe700252
+      internalID: 1484940900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 208
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23ab321d0f70094abd30dfbd86313e0
+      internalID: -667664005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be74b1a7939bb19479b4252e11837b38
+      internalID: 643084196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df38a2941b6c284aae575680284f03c
+      internalID: 935470056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880d13b20213ccd40a3e12974dc204c1
+      internalID: 451060796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f9b37988d7c384e90498ff1c49f3a1
+      internalID: 1533456803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dead5077128df0d47b5b495e2ca173ce
+      internalID: -1589708943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0030b5b9eaf4b90499257ce81055b05b
+      internalID: -89685886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 140
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497d4ba3803b3de4eb91758b8b56c310
+      internalID: -114735742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 140
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93188a36bd6504742a5dfdc3a545f901
+      internalID: 1078303342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 140
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a571c82fcab0b48bdba7f54ab7b627
+      internalID: -1674197538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 140
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014c2f42948dc724a947231bcfc716f7
+      internalID: 1098032687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 140
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0df97398bfd0c447b7677b8798e9ab2
+      internalID: -681489136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 140
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26f3d4bcded29749866f93bc51aca7a
+      internalID: 1880076243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 140
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adce415dce1e8a4a8c8dca8cf6e51d7
+      internalID: -1205733694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 139
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267a3c9fe5e0ae541adc78752dff5fc9
+      internalID: 1339754787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 140
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514ae52d10eb0a6468c0114deffcf2cd
+      internalID: 968219424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 139
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f996d16b2f217944d810e6f1646f4f48
+      internalID: 1932221222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643e09cf7741f8a4ab067106b894e39a
+      internalID: -1320786408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7974ceb85b46a204da263dd1cff086f0
+      internalID: -1381759277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 106
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8222c14bd85b7346aec89ecd48ff4e4
+      internalID: 607214411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 106
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc155b1cad81e4bb7d914dd93ed25b
+      internalID: 1054258476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0715ee2a318a8741b8dff2771297fe4
+      internalID: 1661554583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 106
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae038f0ddd678184b8a3162d75775b7e
+      internalID: -1721850225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 105
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346212ca603b054ea46f35aa316ff73
+      internalID: -1731532606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 105
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf7169b97686cd4a9aa96887866c6a2
+      internalID: -66175211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 105
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4736ecae88b1745ad0068cdb32b1bd
+      internalID: 1545428440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96350de29cf5504d8cea22f1b843ace
+      internalID: 1191872836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567a175cd119c649b8f713eaefee8d5
+      internalID: -1279570583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f793ecbb4c972b4988dec4b884a0a8d
+      internalID: -1127024579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 71
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7d80f957803ee438bf79c29af174f8
+      internalID: 1913082564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 71
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c30909f742c14cb646487bed08251
+      internalID: 2086500771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 71
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0dd88d32626c34faed2a803ec04106
+      internalID: 898800418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 71
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b96343c285f7b47b9b562c763eb153
+      internalID: -1059640585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 71
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a173c6af02e3f41bfa061759295af8
+      internalID: 994726647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 71
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aeca32e665b3e4b91654beb8faf69c
+      internalID: 906489054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 71
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef31de9856083248afb7bcdbdabff31
+      internalID: 644765189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 71
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b515e6ef574e76409ee5c63e6537824
+      internalID: -1253828020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 71
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12749701e1471b4fbbc382777cd75ff
+      internalID: 1177307270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 71
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6442bd933c6254cb9f5dd2317aab0c
+      internalID: 972141541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96a851758794d40b1faf20c8aa80c6
+      internalID: 1499614525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b6f098e4dee7640a86f25c24d127e5
+      internalID: -647083936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd1d40143fad734ba2a6cf138da4291
+      internalID: -360116210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 38
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadeb88d8b938fc42a0170ffa87a8f88
+      internalID: 1141742266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 38
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a00a5b6c3b2ef4aafc75ee30f3786d
+      internalID: -172846315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb65a4d7b3cbe8d40a19ad402e2536ab
+      internalID: -1495486361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d28d22c14ca2d418527ff864029c88
+      internalID: 1766365700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22f45d9f92ef114eb28ae0445079094
+      internalID: 1202396657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 38
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a963362c30f6afe4abbbb261215a769f
+      internalID: -1362921495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a5d2610e0717543bfb18f42d7b816f
+      internalID: -1062624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd039f5376e921041b7d72db44698264
+      internalID: -459117662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c791469b93dd0408a2fbb9fa44f953
+      internalID: -76670363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11933107de31367419855bdd16e8a9e7
+      internalID: -1409494004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 4
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf02b004a5f4ec44947598604b2b31d
+      internalID: -580382602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 4
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a47a649e79fdcb4d93e40fb55cf09e0
+      internalID: -1371708425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4eb04f7148a1264a8f6b6d12f8486ef
+      internalID: 415602875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 4
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eae427683a7c04d8ca4045c08d934f
+      internalID: 837043171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21ef510a3cd92f49bad89e5dc4adedc
+      internalID: -2029986368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b70c378322023c48ac2c4d398f052e1
+      internalID: -823867161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ae7a0c608b54d41bea2bd0baf2b765
+      internalID: -1863073641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asechador-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5420511c2d10b949a5033e27b8c2db4
+      internalID: 1379394577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Asechador-Sheet_0: -1087495353
+      Asechador-Sheet_1: 778334947
+      Asechador-Sheet_10: -1828571695
+      Asechador-Sheet_100: 415602875
+      Asechador-Sheet_101: 837043171
+      Asechador-Sheet_102: -2029986368
+      Asechador-Sheet_103: -823867161
+      Asechador-Sheet_104: -1863073641
+      Asechador-Sheet_105: 1379394577
+      Asechador-Sheet_106: -1658827780
+      Asechador-Sheet_11: -2008248366
+      Asechador-Sheet_12: 268680750
+      Asechador-Sheet_13: -2069264843
+      Asechador-Sheet_14: -764825428
+      Asechador-Sheet_15: 93449937
+      Asechador-Sheet_16: 2125940063
+      Asechador-Sheet_17: 392109375
+      Asechador-Sheet_18: 956785683
+      Asechador-Sheet_19: -1563477698
+      Asechador-Sheet_2: -1652952190
+      Asechador-Sheet_20: -2142755562
+      Asechador-Sheet_21: -450937587
+      Asechador-Sheet_22: -1794295506
+      Asechador-Sheet_23: -1342642076
+      Asechador-Sheet_24: 558518197
+      Asechador-Sheet_25: 1047944123
+      Asechador-Sheet_26: 1484940900
+      Asechador-Sheet_27: -667664005
+      Asechador-Sheet_28: 643084196
+      Asechador-Sheet_29: 935470056
+      Asechador-Sheet_3: -790884485
+      Asechador-Sheet_30: 451060796
+      Asechador-Sheet_31: 1533456803
+      Asechador-Sheet_32: -1589708943
+      Asechador-Sheet_33: -89685886
+      Asechador-Sheet_34: -114735742
+      Asechador-Sheet_35: -1112406229
+      Asechador-Sheet_36: 1078303342
+      Asechador-Sheet_37: -2090446682
+      Asechador-Sheet_38: -37395183
+      Asechador-Sheet_39: -1674197538
+      Asechador-Sheet_4: -1790447895
+      Asechador-Sheet_40: -228313790
+      Asechador-Sheet_41: -663591507
+      Asechador-Sheet_42: 1098032687
+      Asechador-Sheet_43: -125859881
+      Asechador-Sheet_44: 40037077
+      Asechador-Sheet_45: -681489136
+      Asechador-Sheet_46: 456643264
+      Asechador-Sheet_47: 1736862664
+      Asechador-Sheet_48: 1880076243
+      Asechador-Sheet_49: -1793134653
+      Asechador-Sheet_5: -400122646
+      Asechador-Sheet_50: 308685954
+      Asechador-Sheet_51: -1205733694
+      Asechador-Sheet_52: 1690006726
+      Asechador-Sheet_53: 1339754787
+      Asechador-Sheet_54: 968219424
+      Asechador-Sheet_55: 1932221222
+      Asechador-Sheet_56: -1320786408
+      Asechador-Sheet_57: -1381759277
+      Asechador-Sheet_58: 607214411
+      Asechador-Sheet_59: 1054258476
+      Asechador-Sheet_6: -1668779898
+      Asechador-Sheet_60: -970319554
+      Asechador-Sheet_61: 1661554583
+      Asechador-Sheet_62: -1721850225
+      Asechador-Sheet_63: -1731532606
+      Asechador-Sheet_64: -66175211
+      Asechador-Sheet_65: 1545428440
+      Asechador-Sheet_66: 1191872836
+      Asechador-Sheet_67: -1279570583
+      Asechador-Sheet_68: -1127024579
+      Asechador-Sheet_69: 1913082564
+      Asechador-Sheet_7: 980106304
+      Asechador-Sheet_70: 2086500771
+      Asechador-Sheet_71: 898800418
+      Asechador-Sheet_72: -1059640585
+      Asechador-Sheet_73: 994726647
+      Asechador-Sheet_74: 906489054
+      Asechador-Sheet_75: 1719447983
+      Asechador-Sheet_76: 644765189
+      Asechador-Sheet_77: 1522254223
+      Asechador-Sheet_78: -1253828020
+      Asechador-Sheet_79: 1177307270
+      Asechador-Sheet_8: 1927915068
+      Asechador-Sheet_80: 95255372
+      Asechador-Sheet_81: 972141541
+      Asechador-Sheet_82: 1499614525
+      Asechador-Sheet_83: -647083936
+      Asechador-Sheet_84: -1339735912
+      Asechador-Sheet_85: -360116210
+      Asechador-Sheet_86: -714212604
+      Asechador-Sheet_87: 1141742266
+      Asechador-Sheet_88: 1859542870
+      Asechador-Sheet_89: -172846315
+      Asechador-Sheet_9: 87130575
+      Asechador-Sheet_90: -1495486361
+      Asechador-Sheet_91: 1766365700
+      Asechador-Sheet_92: 1202396657
+      Asechador-Sheet_93: -1362921495
+      Asechador-Sheet_94: -1062624031
+      Asechador-Sheet_95: -459117662
+      Asechador-Sheet_96: -76670363
+      Asechador-Sheet_97: -1409494004
+      Asechador-Sheet_98: -580382602
+      Asechador-Sheet_99: -1371708425
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: 1f614e5b427f14d4e8e3d812240e4802
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 315
+        width: 127
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9391c68435385944a1626eef61c4ec0
+      internalID: 66970093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 317
+        width: 71
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc86552a847740b4ba722a4bebec339a
+      internalID: -1530797347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 320
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc407d82daedc846bad7688aed7f894
+      internalID: -1960923555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 317
+        width: 71
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed471d78aa8e24b9d603ebcd2b175b
+      internalID: -1116740048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 315
+        width: 127
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06205b540cb689408ce7238b95df055
+      internalID: -249733053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 297
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f655d3db2aed0540ace4ea1c4101ce2
+      internalID: -472176015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 269
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0482d18e350294495cba5ee8ef4f52
+      internalID: 1159831082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 23
+        width: 269
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc43591dce9e724cbdf2047a0e8b02a
+      internalID: 1105621084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 188
+        width: 127
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3ac5f81d963754f8fa9f350300a825
+      internalID: -2054349678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 149
+        width: 127
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f19e76a8cbad74493704cf4089e3fb
+      internalID: 902655735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 51
+        width: 174
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4575633da4adc45b664c41d9ba1444
+      internalID: -1444748984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 317
+        width: 3
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42675478c5b2a3141a685edebdc8d7a9
+      internalID: 1625897966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 289
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24e83e37582e5a429f1d11e04baf934
+      internalID: -1648421305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 310
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93249d28ecef5e041b51a30833789c72
+      internalID: -598040011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 292
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9138d2cbda6f7f4785d994fb93b339e
+      internalID: 1486150599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 317
+        width: 3
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c238fe27c577f64a8449b4fa8c964ca
+      internalID: 2106470346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valdoras-HUD-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 292
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692eb86c0898f4a46b5ef9ed8b5dabf1
+      internalID: -1171081272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Valdoras-HUD-Sheet_0: -1171081272
+      Valdoras-HUD-Sheet_1: 15809743
+      Valdoras-HUD-Sheet_10: -472176015
+      Valdoras-HUD-Sheet_11: -490035120
+      Valdoras-HUD-Sheet_12: -686803768
+      Valdoras-HUD-Sheet_13: 1159831082
+      Valdoras-HUD-Sheet_14: 2106470346
+      Valdoras-HUD-Sheet_15: 1625897966
+      Valdoras-HUD-Sheet_16: 1105621084
+      Valdoras-HUD-Sheet_17: 859364975
+      Valdoras-HUD-Sheet_18: 292288206
+      Valdoras-HUD-Sheet_19: -593107465
+      Valdoras-HUD-Sheet_2: 113609855
+      Valdoras-HUD-Sheet_20: -1274907962
+      Valdoras-HUD-Sheet_21: -1407417647
+      Valdoras-HUD-Sheet_22: 902049893
+      Valdoras-HUD-Sheet_23: -431810742
+      Valdoras-HUD-Sheet_24: 956714667
+      Valdoras-HUD-Sheet_25: -1517879673
+      Valdoras-HUD-Sheet_26: 1150262437
+      Valdoras-HUD-Sheet_27: -1924646867
+      Valdoras-HUD-Sheet_28: 1192395495
+      Valdoras-HUD-Sheet_29: -1988281957
+      Valdoras-HUD-Sheet_3: -578827140
+      Valdoras-HUD-Sheet_30: -2054349678
+      Valdoras-HUD-Sheet_31: -1148401561
+      Valdoras-HUD-Sheet_32: -1435818283
+      Valdoras-HUD-Sheet_33: -858968692
+      Valdoras-HUD-Sheet_34: 766097820
+      Valdoras-HUD-Sheet_35: 94271910
+      Valdoras-HUD-Sheet_36: -726793863
+      Valdoras-HUD-Sheet_37: -1619298529
+      Valdoras-HUD-Sheet_38: 902655735
+      Valdoras-HUD-Sheet_39: -435308135
+      Valdoras-HUD-Sheet_4: 66970093
+      Valdoras-HUD-Sheet_40: -195835356
+      Valdoras-HUD-Sheet_41: -1419804036
+      Valdoras-HUD-Sheet_42: 928870414
+      Valdoras-HUD-Sheet_43: -717852619
+      Valdoras-HUD-Sheet_44: 1108701077
+      Valdoras-HUD-Sheet_45: 1817589900
+      Valdoras-HUD-Sheet_46: 1523944359
+      Valdoras-HUD-Sheet_47: 33545691
+      Valdoras-HUD-Sheet_48: -1247226916
+      Valdoras-HUD-Sheet_49: -849711674
+      Valdoras-HUD-Sheet_5: -1530797347
+      Valdoras-HUD-Sheet_50: 1977752172
+      Valdoras-HUD-Sheet_51: 148616860
+      Valdoras-HUD-Sheet_52: -1750070125
+      Valdoras-HUD-Sheet_53: -1444748984
+      Valdoras-HUD-Sheet_54: -598040011
+      Valdoras-HUD-Sheet_55: 1486150599
+      Valdoras-HUD-Sheet_6: -1960923555
+      Valdoras-HUD-Sheet_7: -1648421305
+      Valdoras-HUD-Sheet_8: -1116740048
+      Valdoras-HUD-Sheet_9: -249733053
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
