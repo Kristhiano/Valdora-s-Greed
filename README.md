@@ -6,7 +6,7 @@ Lista de tareas de cada uno:
  .
  .
 
--
- .
+-Michael
+ .crear 2do nivel (o crear al boss)
  .
  .
