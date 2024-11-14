@@ -374,8 +374,8 @@ Canvas:
   m_GameObject: {fileID: 417608333}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1262437003}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -550,7 +550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -348.1, y: 108.5}
+  m_AnchoredPosition: {x: -348.09998, y: 108.5}
   m_SizeDelta: {x: 607.4738, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1152149363
@@ -645,6 +645,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4386855961652757150, guid: 7b58705cc484599478e27ba7c29bdc76, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1262437003}
+    - target: {fileID: 4386855961652757150, guid: 7b58705cc484599478e27ba7c29bdc76, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7505151807594981453, guid: 7b58705cc484599478e27ba7c29bdc76, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -665,6 +673,7 @@ GameObject:
   - component: {fileID: 1262437004}
   - component: {fileID: 1262437003}
   - component: {fileID: 1262437002}
+  - component: {fileID: 1262437005}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -746,6 +755,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1262437005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262437001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &1604812948
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,10 +967,10 @@ RectTransform:
   - {fileID: 929051063}
   m_Father: {fileID: 417608338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000063180923, y: -0.000017166138}
-  m_SizeDelta: {x: 1985.2424, y: 1152.9185}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00024414062, y: 0}
+  m_SizeDelta: {x: -0.00048828, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736398497
 MonoBehaviour:
@@ -1033,9 +1086,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1026392120074600288, guid: 8c2c51ab95209a143b35af79feadcbe5, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1262437003}
     - target: {fileID: 1184931989308266377, guid: 8c2c51ab95209a143b35af79feadcbe5, type: 3}
       propertyPath: m_Name
       value: ScreenFader
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326222934766394792, guid: 8c2c51ab95209a143b35af79feadcbe5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 945.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326222934766394792, guid: 8c2c51ab95209a143b35af79feadcbe5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0027466
       objectReference: {fileID: 0}
     - target: {fileID: 6246902754075775582, guid: 8c2c51ab95209a143b35af79feadcbe5, type: 3}
       propertyPath: m_Pivot.x

@@ -17,4 +17,16 @@ public class OptionsMenu : MonoBehaviour
     {
         AudioMixer.SetFloat("Volumen", Mathf.Log10(volume)*20);
     }
+
+    public void Play()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(1);
+
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
