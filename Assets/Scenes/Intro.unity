@@ -322,7 +322,7 @@ MonoBehaviour:
     con la de Valdoras, en un destino que cambiar\xEDa su vida y, tal vez, el destino
     del reino."
   dialogueText: {fileID: 1604812949}
-  continueText: {fileID: 929051061}
+  EText: {fileID: 929051061}
   screenFader: {fileID: 678091558}
   typingSpeed: 0.03
 --- !u!114 &417608335
@@ -484,15 +484,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -550,8 +550,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -348.09998, y: 108.5}
-  m_SizeDelta: {x: 607.4738, y: 50}
+  m_AnchoredPosition: {x: -336, y: 67}
+  m_SizeDelta: {x: 607.47, y: -56.78003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1152149363
 PrefabInstance:
@@ -649,14 +649,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1262437003}
-    - target: {fileID: 4386855961652757150, guid: 7b58705cc484599478e27ba7c29bdc76, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7505151807594981453, guid: 7b58705cc484599478e27ba7c29bdc76, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -864,12 +856,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
+  m_fontSize: 75
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 30
-  m_fontSizeMax: 80
+  m_fontSizeMin: 45
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -928,10 +920,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1736398496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000017404556, y: 0}
-  m_SizeDelta: {x: 1659.2888, y: 826.2362}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -240, y: -220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1736398495
 GameObject:

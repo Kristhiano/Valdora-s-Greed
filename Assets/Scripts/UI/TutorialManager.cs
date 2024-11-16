@@ -12,28 +12,30 @@ public class TutorialManager : MonoBehaviour
     [Header("References")]
     private PlayerMovement playerMovement;
     private PlayerController playerController;
-    public Animator ancianoTutoAnimator;
+    private Animator ancianoTutoAnimator;
     public DummieController dummieController;
-    public GameObject dialoguePanel; 
+    public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI InstructionsText;
-    public GameObject drakeTuto; 
-    public GameObject ancianoTuto; 
+    public GameObject drakeTuto;
+    public GameObject ancianoTuto;
     public GameObject dummie;
     public GameObject anciano;
-    public GameObject player; 
+    public GameObject player;
     public ScreenFader screenFader;
-    public Vector3 playerStartPosition; 
-    public PlayableDirector playableDirector; 
+    public Vector3 playerStartPosition;
+    public PlayableDirector playableDirector;
     public float typingSpeed = 0.02f;
     public CinemachineVirtualCamera gameplayCamera;
     public CinemachineVirtualCamera virtualCamera;
 
-    private Queue<string> sentences; 
-    private bool isTyping = false; 
-    private string currentSentence = ""; 
+    public float saltar = 1, tsaltar = 0;
+
+    private Queue<string> sentences = new Queue<string>();
+    private bool isTyping = false;
+    private string currentSentence = "";
     private bool dialogueEnded = false;
-    private Coroutine typingCoroutine; 
+    private Coroutine typingCoroutine;
     private Vector3 initialPlayerPosition;
 
     private void Start()
@@ -41,18 +43,10 @@ public class TutorialManager : MonoBehaviour
         playerMovement = player.GetComponent<PlayerMovement>();
         playerController = player.GetComponent<PlayerController>();
         ancianoTutoAnimator = anciano.GetComponent<Animator>();
-
-
-        sentences = new Queue<string>();
-        dialoguePanel.SetActive(false); 
-        StartTutorial();
-        InstructionsText.gameObject.SetActive(false);
-    }
-
-    public void StartTutorial()
-    {
         initialPlayerPosition = player.transform.position;
+ 
         StartCoroutine(TutorialSequence());
+        InstructionsText.gameObject.SetActive(false);
     }
 
     private IEnumerator TutorialSequence()
@@ -67,19 +61,14 @@ public class TutorialManager : MonoBehaviour
             "Veamos qué tan firmes son esas piernas cuando se enfrenten a las sombras que acechan en la oscuridad...",
         });
 
-        Debug.Log("Diálogos establecidos, mostrando diálogo.");
+        //Debug.Log("Diálogos establecidos, mostrando diálogo.");
         yield return StartCoroutine(ShowDialogue());
 
-        Debug.Log("Diálogo inicial completo. Oscureciendo pantalla...");
+        //Debug.Log("Diálogo inicial completo. Oscureciendo pantalla...");
         yield return screenFader.FadeToBlack();
-        Debug.Log("Pantalla oscurecida.");
+        //Debug.Log("Pantalla oscurecida.");
 
-        virtualCamera.gameObject.SetActive(false);
-        drakeTuto.SetActive(false);
-        ancianoTuto.SetActive(false);
-        anciano.SetActive(true);
-        player.SetActive(true);
-        gameplayCamera.gameObject.SetActive(true);
+        Cambio(false);
         player.transform.position = playerStartPosition;
 
         yield return screenFader.FadeToClear();
@@ -92,13 +81,7 @@ public class TutorialManager : MonoBehaviour
 
         yield return screenFader.FadeToBlack();
 
-        virtualCamera.gameObject.SetActive(true);
-        drakeTuto.SetActive(true);
-        ancianoTuto.SetActive(true);
-        anciano.SetActive(false);
-        player.SetActive(false);
-        gameplayCamera.gameObject.SetActive(false);
-
+        Cambio(true);
         yield return screenFader.FadeToClear();
 
         SetDialogueLines(new List<string>
@@ -108,12 +91,8 @@ public class TutorialManager : MonoBehaviour
         yield return StartCoroutine(ShowDialogue());
 
         yield return screenFader.FadeToBlack();
-        virtualCamera.gameObject.SetActive(false);
-        drakeTuto.SetActive(false);
-        ancianoTuto.SetActive(false);
-        anciano.SetActive(true);
-        player.SetActive(true);
-        gameplayCamera.gameObject.SetActive(true);
+
+        Cambio(false);
         player.transform.position = playerStartPosition;
 
         yield return screenFader.FadeToClear();
@@ -126,13 +105,7 @@ public class TutorialManager : MonoBehaviour
 
         yield return screenFader.FadeToBlack();
 
-        virtualCamera.gameObject.SetActive(true);
-        drakeTuto.SetActive(true);
-        ancianoTuto.SetActive(true);
-        anciano.SetActive(false);
-        player.SetActive(false);
-        gameplayCamera.gameObject.SetActive(false);
-
+        Cambio(true);
         yield return screenFader.FadeToClear();
 
         SetDialogueLines(new List<string>
@@ -148,13 +121,9 @@ public class TutorialManager : MonoBehaviour
         yield return StartCoroutine(ShowDialogue());
 
         yield return screenFader.FadeToBlack();
-        virtualCamera.gameObject.SetActive(false);
-        drakeTuto.SetActive(false);
-        ancianoTuto.SetActive(false);
-        anciano.SetActive(true);
-        player.SetActive(true);
+
+        Cambio(false);
         dummie.SetActive(true);
-        gameplayCamera.gameObject.SetActive(true);
         player.transform.position = playerStartPosition;
 
         yield return screenFader.FadeToClear();
@@ -167,13 +136,8 @@ public class TutorialManager : MonoBehaviour
         InstructionsText.gameObject.SetActive(false);
 
         yield return screenFader.FadeToBlack();
-        virtualCamera.gameObject.SetActive(true);
-        drakeTuto.SetActive(true);
-        ancianoTuto.SetActive(true);
-        anciano.SetActive(false);
-        player.SetActive(false);
-        gameplayCamera.gameObject.SetActive(false);
 
+        Cambio(true);
         yield return screenFader.FadeToClear();
         SetDialogueLines(new List<string>
         {
@@ -186,16 +150,24 @@ public class TutorialManager : MonoBehaviour
         });
         yield return StartCoroutine(ShowDialogue());
 
-        yield return screenFader.FadeToBlack();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        yield return StartCoroutine(Level());
+    }
 
+    private void Cambio(bool c)
+    {
+        virtualCamera.gameObject.SetActive(c);
+        drakeTuto.SetActive(c);
+        ancianoTuto.SetActive(c);
+        anciano.SetActive(!c);
+        player.SetActive(!c);
+        gameplayCamera.gameObject.SetActive(!c);
     }
 
     private IEnumerator StartIntroCinematic()
     {
         playableDirector.Play(); 
         yield return new WaitWhile(() => playableDirector.state == PlayState.Playing);
-        Debug.Log("Cinemática terminada, activando diálogo.");
+        //Debug.Log("Cinemática terminada, activando diálogo.");
     }
 
     private void SetDialogueLines(List<string> lines)
@@ -215,19 +187,19 @@ public class TutorialManager : MonoBehaviour
 
         yield return new WaitUntil(() => dialogueEnded);
 
-        Debug.Log("Diálogo terminado, saliendo de ShowDialogue");
+        //Debug.Log("Diálogo terminado, saliendo de ShowDialogue");
     }
 
     private void DisplayNextSentence()
     {
         if (sentences.Count == 0)
         {
-            Debug.Log("No hay más oraciones. Finalizando diálogo.");
+            //Debug.Log("No hay más oraciones. Finalizando diálogo.");
             EndDialogue();
             return;
         }
 
-        Debug.Log("Mostrando siguiente oración.");
+        //Debug.Log("Mostrando siguiente oración.");
         currentSentence = sentences.Dequeue();
 
         if (ancianoTutoAnimator != null)
@@ -245,7 +217,7 @@ public class TutorialManager : MonoBehaviour
 
     private void EndDialogue()
     {
-        Debug.Log("Fin del diálogo. Desactivando el panel.");
+        //Debug.Log("Fin del diálogo. Desactivando el panel.");
         dialoguePanel.SetActive(false);
         dialogueEnded = true;
 
@@ -284,7 +256,7 @@ public class TutorialManager : MonoBehaviour
 
         if (playerMovement == null)
         {
-            Debug.LogError("playerMovement es null en PlayerHasDashed.");
+            //Debug.LogError("playerMovement es null en PlayerHasDashed.");
             return false; 
         }
 
@@ -298,10 +270,16 @@ public class TutorialManager : MonoBehaviour
         playerController.enabled = true;
         if (dummieController != null && dummieController.isDead)
         {
-            Debug.Log("El enemigo ha sido derrotado.");
+            //Debug.Log("El enemigo ha sido derrotado.");
             return true; 
         }
         return false;
+    }
+
+    private IEnumerator Level()
+    {
+        yield return screenFader.FadeToBlack();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void Update()
@@ -326,5 +304,28 @@ public class TutorialManager : MonoBehaviour
                 }
             }
         }
+
+        if(Input.GetKey(KeyCode.E))
+        {
+            tsaltar += Time.deltaTime;
+        }
+        if(Input.GetKeyUp(KeyCode.E))
+        {
+            tsaltar = 0;
+        }
+        Debug.Log("tsaltar");
+        if(tsaltar > saltar)
+        {
+            Debug.Log("A");
+            StartCoroutine(Level());
+            return;
+        }
+    }
+
+    private void level()
+    {
+        Debug.Log("B");
+        screenFader.FadeToBlack();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

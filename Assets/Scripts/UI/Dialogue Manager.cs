@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
 {
     public List<string> dialogueLines;
     public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI continueText;
+    public TextMeshProUGUI EText;
     public ScreenFader screenFader;
 
     public float typingSpeed = 0.05f;
@@ -19,7 +19,6 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         ShowNextLine();
-        continueText.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -41,7 +40,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentLineIndex < dialogueLines.Count)
         {
-            continueText.gameObject.SetActive(false);
+            EText.gameObject.SetActive(false);
             StartCoroutine(TypeText(dialogueLines[currentLineIndex]));
             currentLineIndex++;
         }
@@ -63,7 +62,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         isTyping = false;
-        continueText.gameObject.SetActive(true);
+        EText.gameObject.SetActive(true);
     }
 
     private void CompleteTyping()
@@ -71,12 +70,12 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
         dialogueText.text = dialogueLines[currentLineIndex - 1];
         isTyping = false;
-        continueText.gameObject.SetActive(true);
+        EText.gameObject.SetActive(true);
     }
 
     private IEnumerator EndDialogueAndFade()
     {
-        continueText.gameObject.SetActive(false);
+        EText.gameObject.SetActive(false);
         yield return screenFader.FadeToBlack();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
