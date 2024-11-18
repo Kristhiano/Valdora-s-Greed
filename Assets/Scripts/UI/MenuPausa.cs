@@ -20,6 +20,7 @@ public class MenuPausa : MonoBehaviour
             }
         }
     }
+
     public void Pausa()
     {
         juegoPausado = true;

@@ -19,7 +19,7 @@ public class ScreenFader : MonoBehaviour
 
     public IEnumerator FadeToBlack()
     {
-        Debug.Log("Iniciando FadeToBlack");
+        fadeImage.enabled = true;
         float timeElapsed = 0f;
         Color color = fadeImage.color;
 
@@ -36,7 +36,6 @@ public class ScreenFader : MonoBehaviour
 
     public IEnumerator FadeToClear()
     {
-        Debug.Log("Iniciando FadeToClear");
         float timeElapsed = 0f;
         Color color = fadeImage.color;
 
@@ -49,5 +48,6 @@ public class ScreenFader : MonoBehaviour
         }
         color.a = 0f;
         fadeImage.color = color;
+        fadeImage.enabled = false;
     }
 }

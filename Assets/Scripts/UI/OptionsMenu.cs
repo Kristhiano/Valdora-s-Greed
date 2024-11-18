@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class OptionsMenu : MonoBehaviour
 {
     [SerializeField] private AudioMixer AudioMixer;
-    
+    [SerializeField] private ScreenFader screenFader;
+
     public void FullScreen(bool fullScreen)
     {
         Screen.fullScreen = fullScreen;
@@ -21,6 +22,7 @@ public class OptionsMenu : MonoBehaviour
     public void Play()
     {
         Time.timeScale = 1f;
+        screenFader.FadeToBlack();
         SceneManager.LoadScene(1);
 
     }

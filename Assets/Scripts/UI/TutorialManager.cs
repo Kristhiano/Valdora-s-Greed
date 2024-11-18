@@ -29,7 +29,8 @@ public class TutorialManager : MonoBehaviour
     public CinemachineVirtualCamera gameplayCamera;
     public CinemachineVirtualCamera virtualCamera;
 
-    public float saltar = 1, tsaltar = 0;
+    public float saltar = 1;
+    private float tsaltar = 0;
 
     private Queue<string> sentences = new Queue<string>();
     private bool isTyping = false;
@@ -61,12 +62,9 @@ public class TutorialManager : MonoBehaviour
             "Veamos qué tan firmes son esas piernas cuando se enfrenten a las sombras que acechan en la oscuridad...",
         });
 
-        //Debug.Log("Diálogos establecidos, mostrando diálogo.");
         yield return StartCoroutine(ShowDialogue());
 
-        //Debug.Log("Diálogo inicial completo. Oscureciendo pantalla...");
         yield return screenFader.FadeToBlack();
-        //Debug.Log("Pantalla oscurecida.");
 
         Cambio(false);
         player.transform.position = playerStartPosition;
@@ -167,7 +165,6 @@ public class TutorialManager : MonoBehaviour
     {
         playableDirector.Play(); 
         yield return new WaitWhile(() => playableDirector.state == PlayState.Playing);
-        //Debug.Log("Cinemática terminada, activando diálogo.");
     }
 
     private void SetDialogueLines(List<string> lines)
@@ -186,20 +183,16 @@ public class TutorialManager : MonoBehaviour
         DisplayNextSentence();
 
         yield return new WaitUntil(() => dialogueEnded);
-
-        //Debug.Log("Diálogo terminado, saliendo de ShowDialogue");
     }
 
     private void DisplayNextSentence()
     {
         if (sentences.Count == 0)
         {
-            //Debug.Log("No hay más oraciones. Finalizando diálogo.");
             EndDialogue();
             return;
         }
 
-        //Debug.Log("Mostrando siguiente oración.");
         currentSentence = sentences.Dequeue();
 
         if (ancianoTutoAnimator != null)
@@ -217,7 +210,6 @@ public class TutorialManager : MonoBehaviour
 
     private void EndDialogue()
     {
-        //Debug.Log("Fin del diálogo. Desactivando el panel.");
         dialoguePanel.SetActive(false);
         dialogueEnded = true;
 
@@ -256,7 +248,6 @@ public class TutorialManager : MonoBehaviour
 
         if (playerMovement == null)
         {
-            //Debug.LogError("playerMovement es null en PlayerHasDashed.");
             return false; 
         }
 
@@ -266,11 +257,9 @@ public class TutorialManager : MonoBehaviour
 
     private bool PlayerHasAttacked()
     {
-
         playerController.enabled = true;
         if (dummieController != null && dummieController.isDead)
         {
-            //Debug.Log("El enemigo ha sido derrotado.");
             return true; 
         }
         return false;
@@ -313,19 +302,11 @@ public class TutorialManager : MonoBehaviour
         {
             tsaltar = 0;
         }
-        Debug.Log("tsaltar");
         if(tsaltar > saltar)
         {
-            Debug.Log("A");
             StartCoroutine(Level());
             return;
         }
     }
 
-    private void level()
-    {
-        Debug.Log("B");
-        screenFader.FadeToBlack();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
 }
