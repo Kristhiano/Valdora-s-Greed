@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        canMove = false;
+        //canMove = false;
         hasShot = true;
         bulletSpawned = false;
         animator.SetTrigger("Shoot");

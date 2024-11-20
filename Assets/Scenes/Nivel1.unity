@@ -10777,7 +10777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &706627870
 Transform:
   m_ObjectHideFlags: 0
@@ -10808,7 +10808,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706627869}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a62240b66deac6a40b49a23dfd523fb3, type: 3}
   m_Name: 
@@ -11236,6 +11236,14 @@ PrefabInstance:
       propertyPath: playerController
       value: 
       objectReference: {fileID: 1876044823}
+    - target: {fileID: 6817112387949453098, guid: 0443bdd0079856b4b8c9f54e69ed7ff2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817112387949453098, guid: 0443bdd0079856b4b8c9f54e69ed7ff2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6915534918737205786, guid: 0443bdd0079856b4b8c9f54e69ed7ff2, type: 3}
       propertyPath: m_Name
       value: HUD
@@ -62725,7 +62733,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770516678}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a9e0557fc7d8ae448b0e3df9a4381e2, type: 3}
   m_Name: 
@@ -62793,7 +62801,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 63
   m_TargetDisplay: 0
 --- !u!224 &1770516683
 RectTransform:

@@ -17,7 +17,10 @@ public class PlayerHealthBar : MonoBehaviour
 
     public void UpdateMaxHealth(float maxHealth)
     {
-        playerHealthBar.maxValue = maxHealth;
+        if(playerHealthBar != null)
+        {
+            playerHealthBar.maxValue = maxHealth;
+        }
     }
 
     public void UpdateCurrentHealth(float currentHealth)
