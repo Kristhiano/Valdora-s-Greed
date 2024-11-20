@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.027, y: 0.055}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 0.365}
+  m_SizeDelta: {x: 2.0713, y: 2.0299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7071875627609463642
 Canvas:
@@ -247,10 +247,10 @@ RectTransform:
   - {fileID: 8740636195676686872}
   m_Father: {fileID: 1026236929417062376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000023841858, y: 0.892}
-  m_SizeDelta: {x: 160, y: 20}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.00000023841858, y: 0.63504994}
+  m_SizeDelta: {x: 160, y: 18.158802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303130603297275966
 MonoBehaviour:
@@ -590,8 +590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  minFollowDistance: 5
-  maxFollowDistance: 10
+  minFollowDistance: 4
+  maxFollowDistance: 8
 --- !u!114 &7188520304408815595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
   firePoint: {fileID: 2283101186518348624}
   bulletSpeed: 10
   fireRate: 1.5
-  shootingRange: 8
+  shootingRange: 6.75
 --- !u!114 &-6568167844507949888
 MonoBehaviour:
   m_ObjectHideFlags: 0
