@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cadbff6a1825a7042a86c29a6a88b2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 4
   minFollowDistance: 1.5
   maxFollowDistance: 10
 --- !u!114 &5186499689524986950
@@ -323,14 +323,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 6
-  maxHealth: 10
+  maxHealth: 8
   attackCooldown: 1
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageDuration: 0.2
   attackRange: 2.5
   fadeDuration: 10
   isDead: 0
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 4929600415331476329}
 --- !u!114 &7914816512858662342
 MonoBehaviour:
   m_ObjectHideFlags: 0

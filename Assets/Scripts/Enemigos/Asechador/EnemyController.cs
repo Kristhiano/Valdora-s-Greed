@@ -77,7 +77,7 @@ public class EnemyController : MonoBehaviour
 
         gameObject.tag = "Untagged";
 
-        FindObjectOfType<EnemySpawner>().EnemyDefeated();
+        //FindObjectOfType<EnemySpawner>().EnemyDefeated();
 
         Transform childToDisable = transform.Find("AsechadorHealthBarCanvas");
         if (childToDisable != null)

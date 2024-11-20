@@ -67,7 +67,7 @@ public class SlumoController : MonoBehaviour
 
         gameObject.tag = "Untagged";
 
-        FindObjectOfType<EnemySpawner>().EnemyDefeated();
+        //FindObjectOfType<EnemySpawner>().EnemyDefeated();
 
         Transform childToDisable = transform.Find("SlumoHealthBarCanvas");
         if (childToDisable != null)
