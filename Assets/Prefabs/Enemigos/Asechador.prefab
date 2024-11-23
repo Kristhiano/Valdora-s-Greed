@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cadbff6a1825a7042a86c29a6a88b2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 3.5
   minFollowDistance: 1.5
   maxFollowDistance: 8
 --- !u!114 &5186499689524986950

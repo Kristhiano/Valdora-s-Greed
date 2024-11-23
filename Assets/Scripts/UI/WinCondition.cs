@@ -6,14 +6,14 @@ using TMPro;
 
 public class WinCondition : MonoBehaviour
 {
-    public GameObject winScreen;               // Objeto a activar cuando se gane el juego
-    public EnemySpawner enemySpawner;          // Referencia al script EnemySpawner asignada desde el Inspector
+    public GameObject winScreen;
 
-    private bool victoryTriggered = false;     // Para asegurarnos de que solo se active una vez
+    private bool wined = false;
+    public int nextScene = 2;
+    public ScreenFader screenFader;
 
     void Start()
     {
-        // Asegurarse de que el objeto winScreen esté desactivado al inicio
         if (winScreen != null)
         {
             winScreen.SetActive(false);
@@ -22,39 +22,44 @@ public class WinCondition : MonoBehaviour
 
     void Update()
     {
-        // Verificar la condición de victoria sólo cuando aún no se ha activado la victoria
-        if (!victoryTriggered)
+        /*if (wined)
         {
             CheckWinCondition();
-        }
+        }*/
     }
 
     private void CheckWinCondition()
     {
-        // Verificar si no hay enemigos activos en ambas listas
-        if (enemySpawner != null &&
-            enemySpawner.activeEnemiesType1.Count == 0 &&
-            enemySpawner.activeEnemiesType2.Count == 0)
+        /*if ()
         {
             TriggerWin();
-        }
+        }*/
     }
 
     private void TriggerWin()
     {
-        // Activar el GameObject de victoria y comenzar la corrutina de transición
-        if (winScreen != null && !victoryTriggered)
+        if (winScreen != null && wined)
         {
-            victoryTriggered = true;  // Asegurarnos de que solo se active una vez
+            wined = false;
             winScreen.SetActive(true);
             StartCoroutine(LoadFirstSceneAfterDelay());
         }
     }
 
+    private IEnumerator Level()
+    {
+        yield return screenFader.FadeToBlack();
+        SceneManager.LoadScene(nextScene);
+    }
+
     private IEnumerator LoadFirstSceneAfterDelay()
     {
-        // Esperar 2 segundos y luego cargar la primera escena
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(0);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        StartCoroutine(Level());
     }
 }

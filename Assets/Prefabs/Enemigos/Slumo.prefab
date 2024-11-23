@@ -626,7 +626,7 @@ MonoBehaviour:
   firePoint: {fileID: 2283101186518348624}
   bulletSpeed: 10
   fireRate: 1.5
-  shootingRange: 6.75
+  shootingRange: 6
 --- !u!114 &-6568167844507949888
 MonoBehaviour:
   m_ObjectHideFlags: 0
