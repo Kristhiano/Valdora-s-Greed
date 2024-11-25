@@ -590,8 +590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  minFollowDistance: 4
-  maxFollowDistance: 8
+  minFollowDistance: 7
+  maxFollowDistance: 9
 --- !u!114 &7188520304408815595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1346727223425007136, guid: 45ed56eefa172964496b6609fc944b1b, type: 3}
   firePoint: {fileID: 2283101186518348624}
-  bulletSpeed: 10
-  fireRate: 1.5
-  shootingRange: 6
+  bulletSpeed: 11
+  fireRate: 0.85
+  shootingRange: 8
 --- !u!114 &-6568167844507949888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,11 +641,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDrops:
   - itemPrefab: {fileID: 8852667668155693757, guid: 18aeaa5496bc02e47a3002e85bac085c, type: 3}
-    maxDrops: 3
-  - itemPrefab: {fileID: 2785141174457665795, guid: 5f7b7d20bae0ccb4da51154b13fef6ef, type: 3}
     maxDrops: 2
-  - itemPrefab: {fileID: 5395332408516183658, guid: a7c8137306ef13f47a411e1b09b240ac, type: 3}
+  - itemPrefab: {fileID: 2785141174457665795, guid: 5f7b7d20bae0ccb4da51154b13fef6ef, type: 3}
     maxDrops: 1
+  - itemPrefab: {fileID: 5395332408516183658, guid: a7c8137306ef13f47a411e1b09b240ac, type: 3}
+    maxDrops: 0
 --- !u!1 &7189476060791493326
 GameObject:
   m_ObjectHideFlags: 0

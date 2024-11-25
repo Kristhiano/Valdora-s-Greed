@@ -16,7 +16,8 @@ public class ItemDropManager : MonoBehaviour
         foreach (var itemDrop in itemDrops)
         {
             // Generar un número aleatorio de ítems a dropear entre 0 y el máximo permitido
-            int dropsToSpawn = Random.Range(0, itemDrop.maxDrops + 1);
+            //int dropsToSpawn = Random.Range(0, itemDrop.maxDrops + 1);
+            int dropsToSpawn = itemDrop.maxDrops + 1;
 
             for (int i = 0; i < dropsToSpawn; i++)
             {

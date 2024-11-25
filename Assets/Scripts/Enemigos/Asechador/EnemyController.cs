@@ -76,6 +76,7 @@ public class EnemyController : MonoBehaviour
         Debug.Log("Asechador ha muerto");
 
         gameObject.tag = "Untagged";
+        spriteRenderer.color = Color.white;
 
         //FindObjectOfType<EnemySpawner>().EnemyDefeated();
 

@@ -4,15 +4,17 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public List<GameObject> doors = new List<GameObject>();
+    public List<ParticleSystem> sfx = new List<ParticleSystem>();
     public List<GameObject> enemies = new List<GameObject>();
 
     public void Update()
     {
         if(Win())
         {
+            GameObject.Destroy(gameObject);
             for (int i = 0; i < doors.Count; i++)
             {
-                doors[i].GetComponent<Animator>().Play("DoorOpen");
+                doors[i].GetComponent<Animator>().Play("Door Open");
             }
             return;
         }
@@ -38,7 +40,8 @@ public class Door : MonoBehaviour
     {
         for(int i = 0; i < doors.Count; i++)
         {
-            doors[i].GetComponent<Animator>().Play("DoorClose");
+            doors[i].GetComponent<Animator>().Play("Door Close");
+            sfx[i].Play();
         }
     }
 

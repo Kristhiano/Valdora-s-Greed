@@ -60,6 +60,9 @@ public class WinCondition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(Level());
+        if(collision.tag == "Player")
+        {
+            StartCoroutine(Level());
+        }
     }
 }

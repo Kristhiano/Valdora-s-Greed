@@ -309,7 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   minFollowDistance: 1.5
-  maxFollowDistance: 8
+  maxFollowDistance: 9
 --- !u!114 &5186499689524986950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 6
-  maxHealth: 8
+  maxHealth: 10
   attackCooldown: 1
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageDuration: 0.2
@@ -345,11 +345,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDrops:
   - itemPrefab: {fileID: 8852667668155693757, guid: 18aeaa5496bc02e47a3002e85bac085c, type: 3}
-    maxDrops: 3
-  - itemPrefab: {fileID: 2785141174457665795, guid: 5f7b7d20bae0ccb4da51154b13fef6ef, type: 3}
     maxDrops: 2
-  - itemPrefab: {fileID: 5395332408516183658, guid: a7c8137306ef13f47a411e1b09b240ac, type: 3}
+  - itemPrefab: {fileID: 2785141174457665795, guid: 5f7b7d20bae0ccb4da51154b13fef6ef, type: 3}
     maxDrops: 1
+  - itemPrefab: {fileID: 5395332408516183658, guid: a7c8137306ef13f47a411e1b09b240ac, type: 3}
+    maxDrops: 0
 --- !u!1 &4356074877864781505
 GameObject:
   m_ObjectHideFlags: 0
