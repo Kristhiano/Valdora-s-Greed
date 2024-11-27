@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
         if (isDead || isInvulnerable) return;
 
         currentHealth -= Mathf.RoundToInt(damage * damageMultiplier);
-        Debug.Log("Jugador ha recibido daño");
+
         healthBar.UpdateCurrentHealth(currentHealth);
 
         StartCoroutine(FlashDamageColor());
@@ -106,6 +106,11 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
+    }
+
+    public void GetPosion()
+    {
+        healthBar.InitHealthBar(maxHealth);
     }
 
     private IEnumerator FlashDamageColor()
