@@ -47,12 +47,7 @@ public class SlumoMovement : MonoBehaviour
 
         if (target != null)
         {
-            if (Vector2.Distance(transform.position, target.position) >= maxFollowDistance)
-            {
-                rb2d.velocity = Vector2.zero;
-                animator.SetBool("isMoving", false);
-            }
-            else if (Vector2.Distance(transform.position, target.position) <= minFollowDistance)
+            if (Vector2.Distance(transform.position, target.position) >= maxFollowDistance || Vector2.Distance(transform.position, target.position) <= minFollowDistance)
             {
                 rb2d.velocity = Vector2.zero;
                 animator.SetBool("isMoving", false);

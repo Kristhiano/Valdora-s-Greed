@@ -15,18 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: ce488a0d262800849bcf0fcc9db78810
   - enabled: 1
-    path: Assets/Scenes/Nivel 1.unity
-    guid: 1674ea46797ea7142b5d7301730452bb
-  - enabled: 0
     path: Assets/Scenes/Creditos.unity
     guid: 317cc394e2dbf5744908fc424a6f9e0d
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1.unity
+    guid: 1674ea46797ea7142b5d7301730452bb
+  - enabled: 1
+    path: Assets/Scenes/Nivel 2.unity
+    guid: efc1e7dcc9650824d88a5d6e6a817943
   - enabled: 0
     path: Assets/Scenes/PantallaDeCarga.unity
     guid: 1daae4ba235c3164f8cfb638e219fe31
   - enabled: 0
     path: Assets/Scenes/Pruebas.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/Nivel 2.unity
-    guid: 952c58ee7c764754ca38ba6fdafa9a50
   m_configObjects: {}

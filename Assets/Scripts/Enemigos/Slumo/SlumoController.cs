@@ -55,6 +55,7 @@ public class SlumoController : MonoBehaviour
     {
         if (!isDead)
         {
+            Color color = spriteRenderer.color;
             spriteRenderer.color = damageColor;
             yield return new WaitForSeconds(damageDuration);
             spriteRenderer.color = Color.white;
@@ -87,9 +88,17 @@ public class SlumoController : MonoBehaviour
             Debug.LogError("Animator no encontrado en el objeto.");
         }
 
+
         if (enemyCollider != null)
         {
             enemyCollider.isTrigger = true;
+        }
+
+        if(gameObject.GetComponent<SlumoDivide>())
+        {
+            gameObject.GetComponent<SlumoDivide>().Divide();
+            StartCoroutine(FadeOutAndDestroy());
+            Destroy(gameObject);
         }
 
         ItemDropManager itemDropManager = FindObjectOfType<ItemDropManager>();
@@ -110,7 +119,7 @@ public class SlumoController : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float alpha = Mathf.Lerp(spriteColor.a, 0f, elapsedTime / fadeDuration);
-            spriteRenderer.color = new Color(spriteColor.r, spriteColor.g, spriteColor.b, alpha);
+            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, alpha);
             yield return null; // Espera un frame antes de continuar
         }
 

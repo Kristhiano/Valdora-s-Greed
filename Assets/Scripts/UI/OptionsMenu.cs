@@ -24,7 +24,13 @@ public class OptionsMenu : MonoBehaviour
         Time.timeScale = 1f;
         screenFader.FadeToBlack();
         SceneManager.LoadScene(1);
+    }
 
+    public void Credits(int cred)
+    {
+        Time.timeScale = 1f;
+        screenFader.FadeToBlack();
+        SceneManager.LoadScene(cred);
     }
 
     public void Quit()

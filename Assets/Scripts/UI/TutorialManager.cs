@@ -268,7 +268,7 @@ public class TutorialManager : MonoBehaviour
     private IEnumerator Level()
     {
         yield return screenFader.FadeToBlack();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     private void Update()
