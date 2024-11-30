@@ -148,9 +148,25 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6808041951684247818, guid: 99d7e73862be44e41a405399c456460f, type: 3}
+      propertyPath: divides.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808041951684247818, guid: 99d7e73862be44e41a405399c456460f, type: 3}
       propertyPath: slumos.Array.data[2]
       value: 
       objectReference: {fileID: 735934984983236473}
+    - target: {fileID: 6808041951684247818, guid: 99d7e73862be44e41a405399c456460f, type: 3}
+      propertyPath: divides.Array.data[0]
+      value: 
+      objectReference: {fileID: 6704537205243824600, guid: 7b84332813ef7dc4e99a36331c09a05c, type: 3}
+    - target: {fileID: 6808041951684247818, guid: 99d7e73862be44e41a405399c456460f, type: 3}
+      propertyPath: divides.Array.data[1]
+      value: 
+      objectReference: {fileID: 483314853531670713, guid: 99d7e73862be44e41a405399c456460f, type: 3}
+    - target: {fileID: 6808041951684247818, guid: 99d7e73862be44e41a405399c456460f, type: 3}
+      propertyPath: divides.Array.data[2]
+      value: 
+      objectReference: {fileID: 6704537205243824600, guid: 7b84332813ef7dc4e99a36331c09a05c, type: 3}
     - target: {fileID: 6808041951684247818, guid: 99d7e73862be44e41a405399c456460f, type: 3}
       propertyPath: forces.Array.data[0].y
       value: 6000

@@ -37,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         ProcessInputs();
-        Debug.Log(input.magnitude);
         Animate();
 
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= lastDashTime + dashCooldown && input.magnitude > 0 && isDashing == false && canDash)

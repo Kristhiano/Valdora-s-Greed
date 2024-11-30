@@ -23,10 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel 2.unity
     guid: efc1e7dcc9650824d88a5d6e6a817943
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: d3cc3deef6df54645adb527584ca84ab
+  - enabled: 1
+    path: Assets/Scenes/Nivel Boss.unity
+    guid: f7d29f7ae9967cc4dbfe4315ff6af5c4
   - enabled: 0
     path: Assets/Scenes/PantallaDeCarga.unity
     guid: 1daae4ba235c3164f8cfb638e219fe31
-  - enabled: 0
-    path: Assets/Scenes/Pruebas.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}

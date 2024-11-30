@@ -39,7 +39,6 @@ public class Posion : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            Debug.Log("Open");
             E.Play("E_Open");
             over = true;
         }
@@ -49,7 +48,6 @@ public class Posion : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Close");
             E.Play("E_Close");
             over = false;
         }

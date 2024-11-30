@@ -10,6 +10,7 @@ public class SlumoMovement : MonoBehaviour
     private Animator animator; // Referencia al Animator
     [SerializeField] private float minFollowDistance;
     [SerializeField] private float maxFollowDistance;
+    [SerializeField] private Transform HealthBar;
 
     private bool isFacingRight = true;
 
@@ -62,24 +63,18 @@ public class SlumoMovement : MonoBehaviour
                 animator.SetFloat("MoveX", direction.x);
                 animator.SetFloat("MoveY", direction.y);
 
-                if (direction.x > 0 && !isFacingRight)
+                gameObject.GetComponent<SpriteRenderer>().flipX = isFacingRight;
+
+                if (target.transform.position.x >= transform.position.x)
                 {
-                    Flip();
+                    gameObject.GetComponent<SpriteRenderer>().flipX = false;
                 }
-                else if (direction.x < 0 && isFacingRight)
+                else if (target.transform.position.x < transform.position.x)
                 {
-                    Flip();
+                    gameObject.GetComponent<SpriteRenderer>().flipX = true;
                 }
             }
         }
-    }
-
-    private void Flip()
-    {
-        isFacingRight = !isFacingRight;
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
     }
 
     private void OnDrawGizmosSelected()

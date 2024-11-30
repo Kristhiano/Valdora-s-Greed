@@ -19,6 +19,7 @@ public class SlumoBullet : MonoBehaviour
             PlayerController player = collision.GetComponent<PlayerController>();
             if (player != null)
             {
+                Debug.Log(gameObject.name);
                 player.TakeDamage(damage);
             }
 

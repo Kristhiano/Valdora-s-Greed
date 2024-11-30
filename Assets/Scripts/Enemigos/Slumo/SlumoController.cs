@@ -37,8 +37,7 @@ public class SlumoController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
-        Debug.Log("Slumo ha recibido daño");
-
+        Debug.Log(currentHealth);
         healthBar.UpdateHealthBar(currentHealth, maxHealth);
 
         if (currentHealth > 0)
@@ -64,12 +63,6 @@ public class SlumoController : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Slumo ha muerto");
-
-        gameObject.tag = "Untagged";
-
-        //FindObjectOfType<EnemySpawner>().EnemyDefeated();
-
         Transform childToDisable = transform.Find("SlumoHealthBarCanvas");
         if (childToDisable != null)
         {
@@ -81,13 +74,7 @@ public class SlumoController : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Die");
-            Debug.Log("Trigger de muerte activado");
         }
-        else
-        {
-            Debug.LogError("Animator no encontrado en el objeto.");
-        }
-
 
         if (enemyCollider != null)
         {
@@ -100,6 +87,13 @@ public class SlumoController : MonoBehaviour
             StartCoroutine(FadeOutAndDestroy());
             Destroy(gameObject);
         }
+
+        if (GetComponent<SlumoDivide>())
+        {
+            GetComponent<SlumoDivide>().Door();
+        }
+
+        gameObject.tag = "Untagged";
 
         ItemDropManager itemDropManager = FindObjectOfType<ItemDropManager>();
         if (itemDropManager != null)

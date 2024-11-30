@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: damage
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: -8660067072203788223, guid: 45ed56eefa172964496b6609fc944b1b, type: 3}
+      propertyPath: lifetime
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 243941913008864333, guid: 45ed56eefa172964496b6609fc944b1b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2

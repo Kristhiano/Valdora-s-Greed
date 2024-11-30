@@ -195,7 +195,10 @@ MonoBehaviour:
   slumos:
   - {fileID: 2922540308232952312}
   - {fileID: 4194119708489038976}
-  slumo: {fileID: 6704537205243824600, guid: 7b84332813ef7dc4e99a36331c09a05c, type: 3}
+  divides:
+  - {fileID: 6704537205243824600, guid: 7b84332813ef7dc4e99a36331c09a05c, type: 3}
+  - {fileID: 6704537205243824600, guid: 7b84332813ef7dc4e99a36331c09a05c, type: 3}
+  doorCollider: {fileID: 0}
 --- !u!4 &2695803785308178941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9139829077328042140, guid: 7b84332813ef7dc4e99a36331c09a05c, type: 3}

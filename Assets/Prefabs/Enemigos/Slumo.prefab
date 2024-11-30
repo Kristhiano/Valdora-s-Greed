@@ -316,6 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1303130603297275966}
+  enemie: {fileID: 9139829077328042140}
 --- !u!1 &6542925064799006905
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +593,7 @@ MonoBehaviour:
   speed: 5
   minFollowDistance: 7
   maxFollowDistance: 9
+  HealthBar: {fileID: 7709251662538122413}
 --- !u!114 &7188520304408815595
 MonoBehaviour:
   m_ObjectHideFlags: 0

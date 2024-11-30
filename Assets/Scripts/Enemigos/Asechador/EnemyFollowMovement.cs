@@ -63,31 +63,17 @@ public class EnemyFollowMovement : MonoBehaviour
                 animator.SetFloat("MoveX", direction.x);
                 animator.SetFloat("MoveY", direction.y);
 
-                if (direction.x > 0 && !isFacingRight)
+                gameObject.GetComponent<SpriteRenderer>().flipX = isFacingRight;
+
+                if(target.transform.position.x >= transform.position.x)
                 {
-                    Flip();
-                }
-                else if (direction.x < 0 && isFacingRight)
+                    gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                } else if (target.transform.position.x < transform.position.x)
                 {
-                    Flip();
+                    gameObject.GetComponent<SpriteRenderer>().flipX = true;
                 }
+
             }
-        }
-    }
-
-    private void Flip()
-    {
-        isFacingRight = !isFacingRight;
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
-
-        if (transform.Find("AHealthBar"))
-        {
-            Transform healthBarTransform = transform.Find("AHealthBar");
-            Vector3 healthBarScale = healthBarTransform.localScale;
-            healthBarScale.x = Mathf.Abs(healthBarScale.x);
-            healthBarTransform.localScale = healthBarScale;
         }
     }
 

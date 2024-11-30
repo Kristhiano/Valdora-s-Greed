@@ -47,7 +47,6 @@ public class EnemyController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
-        Debug.Log("Asechador ha recibido daño");
 
         healthBar.UpdateHealthBar(currentHealth, maxHealth);
 
@@ -73,12 +72,8 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Asechador ha muerto");
-
         gameObject.tag = "Untagged";
         spriteRenderer.color = Color.white;
-
-        //FindObjectOfType<EnemySpawner>().EnemyDefeated();
 
         Transform childToDisable = transform.Find("AsechadorHealthBarCanvas");
         if (childToDisable != null)
