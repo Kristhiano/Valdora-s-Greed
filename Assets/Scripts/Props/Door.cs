@@ -46,24 +46,31 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        virtualCam.Priority = 11;
-        for (int i = 0; i < enemies.Count; i++)
+        if(collision.tag == "Player")
         {
-            if (enemies[i].GetComponent<SlumoMovement>())
+            virtualCam.Priority = 11;
+            for (int i = 0; i < enemies.Count; i++)
             {
-                enemies[i].GetComponent<SlumoMovement>().enabled = true;
+                if (enemies[i].GetComponent<SlumoMovement>())
+                {
+                    enemies[i].GetComponent<SlumoMovement>().enabled = true;
+                }
+                if (enemies[i].GetComponent<SlumoShoot>())
+                {
+                    enemies[i].GetComponent<SlumoShoot>().enabled = true;
+                }
+                if (enemies[i].GetComponent<Boss>())
+                {
+                    enemies[i].GetComponent<Boss>().enabled = true;
+                }
             }
-            if (enemies[i].GetComponent<SlumoShoot>())
+            for (int i = 0; i < doors.Count; i++)
             {
-                enemies[i].GetComponent<SlumoShoot>().enabled = true;
+                doors[i].GetComponent<Animator>().Play("Door Close");
+                sfx[i].Play();
             }
+            gameObject.GetComponent<Collider2D>().enabled = false;
         }
-        for (int i = 0; i < doors.Count; i++)
-        {
-            doors[i].GetComponent<Animator>().Play("Door Close");
-            sfx[i].Play();
-        }
-        gameObject.GetComponent<Collider2D>().enabled = false;
     }
 
 

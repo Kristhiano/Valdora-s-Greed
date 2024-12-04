@@ -37,7 +37,6 @@ public class SlumoController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
-        Debug.Log(currentHealth);
         healthBar.UpdateHealthBar(currentHealth, maxHealth);
 
         if (currentHealth > 0)

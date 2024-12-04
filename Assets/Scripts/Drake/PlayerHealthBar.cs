@@ -15,11 +15,6 @@ public class PlayerHealthBar : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        Debug.Log(playerHealthBar.value);
-    }
-
     public void UpdateMaxHealth(float maxHealth)
     {
         if(playerHealthBar != null)

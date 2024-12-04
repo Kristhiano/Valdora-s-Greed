@@ -20,7 +20,6 @@ public class EnemyHealthBar : MonoBehaviour
 
     public void UpdateHealthBar(float currentValue, float maxValue)
     {
-        Debug.Log(slider.value);
         slider.value = currentValue / maxValue;
     }
 }

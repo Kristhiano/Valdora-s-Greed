@@ -18,10 +18,10 @@ public class Collectables : MonoBehaviour
                 value = 10;
                 break;
             case CoinType.Emerald:
-                value = 100;
+                value = 60;
                 break;
             case CoinType.Ruby:
-                value = 500;
+                value = 20;
                 break;
         }
     }

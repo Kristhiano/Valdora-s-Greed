@@ -11,14 +11,13 @@ public class Posion : MonoBehaviour
     public GameObject player;
 
     public GameObject part;
-    private float timeS = 1f;
 
     private void Update()
     {
-        if(timeS == 1f && Time.timeScale == 0f)
+        if(Time.timeScale == 0f)
         {
             part.SetActive(false);
-        } else if(timeS == 0f && Time.timeScale == 1f)
+        } else if(Time.timeScale == 1f)
         {
             part.SetActive(true);
         }

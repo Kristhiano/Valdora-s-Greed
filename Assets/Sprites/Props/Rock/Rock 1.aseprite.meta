@@ -229,9 +229,9 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 70
-      y: 4
-      width: 48
+      x: 3
+      y: 148
+      width: 64
       height: 64
     spriteID: 2b0ed43a6394fb34abff3049055cda82
     spriteBone: []
@@ -274,8 +274,8 @@ ScriptedImporter:
       cellRect:
         x: 20
         y: 22
-        width: 40
-        height: 53
+        width: 52
+        height: 55
       spriteId: 293203a6aa7172541872f478247e037d
     linkedCells: []
     parentIndex: -1
