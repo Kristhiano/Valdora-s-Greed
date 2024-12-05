@@ -12,6 +12,11 @@ public class Posion : MonoBehaviour
 
     public GameObject part;
 
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     private void Update()
     {
         if(Time.timeScale == 0f)
