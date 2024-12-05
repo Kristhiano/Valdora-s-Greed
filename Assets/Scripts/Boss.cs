@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -9,9 +10,9 @@ public class Boss : MonoBehaviour
     public GameObject sword;
     public Transform player;
     [SerializeField] private float timeAtack = 5;
-    private float tAtack = 5;
+    private float tAtack = 4;
 
-    public float delayAC = 0.1f;
+    public float delayAC = 0.1f, reaction = 1f;
 
     void Update()
     {
@@ -28,16 +29,16 @@ public class Boss : MonoBehaviour
     void Atack()
     {
         int rand = Random.Range(0, 3);
-        rand = 0;
+        rand = 1;
         if(rand == 0)
         {
             StartCoroutine(AtackCuadro());
         } else if(rand == 1)
         {
-            AtackFollow();
+            StartCoroutine(AtackFollow());
         } else if(rand == 2)
         {
-            AtackCruz();
+            Enemies();
         }
     }
 
@@ -65,15 +66,14 @@ public class Boss : MonoBehaviour
             }
         }
         Vector3 start = swordP[rand].position;
-        Debug.Log("A");
-        for(int i = 0; i < 12; i++)
+        yield return new WaitForSeconds(reaction);
+        for (int i = 0; i < 12; i++)
         {
             yield return new WaitForSeconds(delayAC);
             for (int j = 0; j <= i; j++)
             {
-                Debug.Log(i + " " + j);
                 GameObject s = Instantiate(sword, start + new Vector3(i-j, j, 0), Quaternion.identity);
-                StartCoroutine(Destroy(s));
+                StartCoroutine(DestroyS(s));
             }
         }
         for(int i = 12; i < 24; i++)
@@ -82,25 +82,46 @@ public class Boss : MonoBehaviour
             for (int j = i-12; j < 12; j++)
             {
                 GameObject s = Instantiate(sword, start + new Vector3(i-j, j, 0), Quaternion.identity);
-                StartCoroutine(Destroy(s));
+                StartCoroutine(DestroyS(s));
             }
         }
         yield return null;
     }
 
-    void AtackFollow()
+    IEnumerator AtackFollow()
+    {
+        int px = (int)player.position.x, py = (int)player.position.y;
+        yield return new WaitForSeconds(reaction);
+        for (int i = -3; i < 4; i++)
+        {
+            if(Mathf.Abs(i%2) == 1)
+            {
+                for (int j = (i+3)/2; j > (i-5)/2; j--)
+                {
+                    GameObject s = Instantiate(sword, new Vector3(px + i-j, py + j, 0), Quaternion.identity);
+                    StartCoroutine(DestroyS(s));
+                }
+            } else
+            {
+                for (int j = (i+2)/2; j > (i-4)/2; j--)
+                {
+                    GameObject s = Instantiate(sword, new Vector3(px + i-j, py + j, 0), Quaternion.identity);
+                    StartCoroutine(DestroyS(s));
+                }
+            }
+        }
+        yield return null;
+    }
+
+    void Enemies()
     {
 
     }
 
-    void AtackCruz()
-    {
-
-    }
-
-    IEnumerator Destroy(GameObject s)
+    IEnumerator DestroyS(GameObject s)
     {
         yield return new WaitForSeconds(1.8f);
+        Debug.Log("Destroyed");
         Destroy(s);
     }
 
